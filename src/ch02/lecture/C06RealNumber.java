@@ -5,6 +5,7 @@ public class C06RealNumber {
         // 실수 :
         // float : 4bytes, 16bits
         float a = 3.14f;
+        float c = 3;
         System.out.println("a = " + a);
         // double : 8bytes, 64bits 더 넓은 범위를 표현해서 왠만하면 이거 씀.
         double b = 1.7976931348623157E+308;
