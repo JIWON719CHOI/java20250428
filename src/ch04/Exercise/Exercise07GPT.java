@@ -1,4 +1,4 @@
-package ch04.practice;
+package ch04.Exercise;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Exercise07GPT {
     // void : 이 메서드는 아무 값도 return 하지 않겠다는 뜻.
     // main : 자바 프로그램이 처음 시작하면 실행되는 약속된 이름.
     // String[] args : 프로그램 실행 시 외부에서 전달받는 문자열 배열 (명령행 인자)
-    //                  -> 지금은 안써도 되고, 나중에 쓸 수 있음.
+    //                  -> 지금은 안써도 되고, 나중에 쓸 수 있음. 이게 무슨 말...
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int bank = 0;
