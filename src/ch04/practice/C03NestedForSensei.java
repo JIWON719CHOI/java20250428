@@ -36,7 +36,6 @@ public class C03NestedForSensei {
             System.out.println();
         }
 
-
         System.out.println();
         /*
         *****
@@ -108,7 +107,6 @@ public class C03NestedForSensei {
             System.out.println();
         }
 
-
         System.out.println();
         /*
         1
@@ -123,7 +121,6 @@ public class C03NestedForSensei {
             }
             System.out.println();
         }
-
 
         System.out.println();
         /*
