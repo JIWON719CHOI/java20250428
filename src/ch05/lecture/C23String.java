@@ -24,7 +24,5 @@ public class C23String {
         byte[] g1 = {101, 106, 97, 118, 97, 99};
         String g = new String(g1, 1, 4);
         System.out.println(a.equals(g)); // true
-
-
     }
 }
