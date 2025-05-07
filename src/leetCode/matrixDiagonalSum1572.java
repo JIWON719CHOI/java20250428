@@ -1,4 +1,4 @@
-package ch05.leetCode;
+package leetCode;
 
 public class matrixDiagonalSum1572 {
     public static int main(String[] args) {

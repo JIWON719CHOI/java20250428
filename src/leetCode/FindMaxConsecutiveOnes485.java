@@ -1,8 +1,8 @@
-package oppa;
+package leetCode;
 
-public class FindMaxConsecutiveOnes {
+public class FindMaxConsecutiveOnes485 {
     public static void main(String[] args) {
-        int[] arr = {1,1,0,1,1,1};
+        int[] arr = {1, 1, 0, 1, 1, 1};
         System.out.println(findMaxConsecutiveOnes(arr));
     }
 
@@ -10,12 +10,11 @@ public class FindMaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int maxCnt = 0;
         int currentCnt = 0;
-        for(int i=0; i<nums.length; i++) {
-            if(nums[i] == 1) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1) {
                 currentCnt++;
-            }
-            else {
-                if(currentCnt > maxCnt) maxCnt = currentCnt;
+            } else {
+                if (currentCnt > maxCnt) maxCnt = currentCnt;
                 currentCnt = 0;
             }
         }

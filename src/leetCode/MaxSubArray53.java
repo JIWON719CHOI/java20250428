@@ -1,9 +1,6 @@
-package oppa;
+package leetCode;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class MaxSubArray {
+public class MaxSubArray53 {
 
     public static void main(String[] args) {
         int[] arr = {-2, -1};

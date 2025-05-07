@@ -1,10 +1,10 @@
-package oppa;
+package leetCode;
 
 import java.util.Arrays;
 
-public class MatrixReshape {
+public class MatrixReshape566 {
     public static void main(String[] args) {
-        int[][] mat = {{1,2,3,4}};
+        int[][] mat = {{1, 2, 3, 4}};
         System.out.println(Arrays.deepToString(matrixReshape(mat, 2, 2)));
 //        System.out.println(Arrays.deepToString(matrixReshape(mat, 2, 4)));
 
@@ -15,18 +15,18 @@ public class MatrixReshape {
         int oriR = mat.length;
         int oriC = mat[0].length;
         int[][] out = new int[r][c];
-        if(oriR * oriC != r * c) return mat;
+        if (oriR * oriC != r * c) return mat;
 
 
         int newR = 0;
         int newC = 0;
-        for(int i=0; i<oriR; i++) {
-            for(int j=0; j<oriC; j++) {
+        for (int i = 0; i < oriR; i++) {
+            for (int j = 0; j < oriC; j++) {
                 out[newR][newC] = mat[i][j];
 
                 newC++;
-                if(newC == c) {
-                    newC =0;
+                if (newC == c) {
+                    newC = 0;
                     newR++;
                 }
             }
