@@ -97,7 +97,7 @@ public class BankApp {
             } else System.out.println("잔액 부족");
         }
 
-        public String toString() {
+        public String toString() { // overring 한거임.
             return no + " " + name + " " + balance + "원";
         }
     }
