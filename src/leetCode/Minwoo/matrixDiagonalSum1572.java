@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.Minwoo;
 
 public class matrixDiagonalSum1572 {
     public static int main(String[] args) {

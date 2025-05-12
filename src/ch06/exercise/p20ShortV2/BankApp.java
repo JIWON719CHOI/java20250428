@@ -6,11 +6,11 @@ import java.util.*; // java.util 안에 있는 모든 도구(예: Scanner, Map, 
 public class BankApp {
     static Map<String, Account> accounts = new HashMap<>();
     // 모든 계좌들을 저장할 공간.
-    // Map은 key-value 구조 (ex. "123-456" → 어떤 계좌 객체)
-    // HashMap은 빠르게 찾아주는 Map 종류.
-    // static은 "모든 메서드에서 공유됨"이란 뜻.
+    // Map 은 key-value 구조 (ex. "123-456" → 어떤 계좌 객체)
+    // HashMap 은 빠르게 찾아주는 Map 종류.
+    // static 은 "모든 메서드에서 공유됨"이란 뜻.
     static Scanner sc = new Scanner(System.in);
-    //사용자의 입력을 받기 위한 도구: 키보드로 입력한 걸 읽어오는 Scanner를 System.in 으로 만듦.
+    //사용자의 입력을 받기 위한 도구: 키보드로 입력한 걸 읽어오는 Scanner 를 System.in 으로 만듦.
 
     public static void main(String[] args) { // 코드 시작! 실행하면 제일 먼저 여기가 호출
         while (true) { // 무한반복 while... 5. 종료 까지.
@@ -46,11 +46,11 @@ public class BankApp {
         System.out.print("입금: ");
         int bal = Integer.parseInt(sc.nextLine()); // 숫자 문자열을 정수로 바꿔.
         accounts.put(no, new Account(no, name, bal)); // accounts 에 다 put 해라.
-        System.out.println("계좌 생성"); // put(key, value) 는 맵에 저장하는 방법: 계좌번호가 key, Account가 value.
+        System.out.println("계좌 생성"); // put(key, value) 는 맵에 저장하는 방법: 계좌번호가 key, Account 가 value.
     }
 
     static void list() {
-        accounts.values().forEach(System.out::println); // System.out::println은 각 계좌를 한 줄씩 출력하는 코드야.
+        accounts.values().forEach(System.out::println); // System.out::println 은 각 계좌를 한 줄씩 출력하는 코드야.
     }
 
     static void deposit() {
@@ -76,7 +76,7 @@ public class BankApp {
         } else System.out.println("계좌 없음");
     }
 
-    static class Account { // 내부 클래스입니다. 계좌 객체를 정의. 계좌번호, 이름, 잔액을 저장.
+                static class Account { // 내부 클래스입니다. 계좌 객체를 정의. 계좌번호, 이름, 잔액을 저장.
         String no, name;
         int balance;
 

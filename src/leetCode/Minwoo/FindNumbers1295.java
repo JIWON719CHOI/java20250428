@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.Minwoo;
 
 public class FindNumbers1295 {
     public static void main(String[] args) {

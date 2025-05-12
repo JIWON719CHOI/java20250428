@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.Minwoo;
 
 import java.util.ArrayList;
 import java.util.List;

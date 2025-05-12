@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.Minwoo;
 
 public class ValidPalindrome125 {
     public static void main(String[] args) {
