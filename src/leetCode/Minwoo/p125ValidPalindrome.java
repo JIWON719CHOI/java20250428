@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class ValidPalindrome125 {
+public class p125ValidPalindrome {
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         System.out.println(

@@ -2,7 +2,7 @@ package leetCode.Minwoo;
 
 import java.util.*;
 
-public class FindDiagonalOrder498 {
+public class p498FindDiagonalOrder {
     public static void main(String[] args) {
         int[][] arr = {{2, 3}};
         System.out.println(Arrays.toString(findDiagonalOrder(arr)));

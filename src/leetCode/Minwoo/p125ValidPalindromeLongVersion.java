@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class ValidPalindrome125LongVersion {
+public class p125ValidPalindromeLongVersion {
 
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";

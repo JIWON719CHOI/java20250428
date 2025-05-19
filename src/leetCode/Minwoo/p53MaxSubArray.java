@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class MaxSubArray53 {
+public class p53MaxSubArray {
 
     public static void main(String[] args) {
         int[] arr = {-2, -1};

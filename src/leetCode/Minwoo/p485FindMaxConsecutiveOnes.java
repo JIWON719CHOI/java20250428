@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class FindMaxConsecutiveOnes485 {
+public class p485FindMaxConsecutiveOnes {
     public static void main(String[] args) {
         int[] arr = {1, 1, 0, 1, 1, 1};
         System.out.println(findMaxConsecutiveOnes(arr));

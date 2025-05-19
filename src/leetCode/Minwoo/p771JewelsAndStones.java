@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class JewelsAndStones771 {
+public class p771JewelsAndStones {
     public static void main(String[] args) {
         String jewels = "aA";
         String stones = "aAAbbbb";

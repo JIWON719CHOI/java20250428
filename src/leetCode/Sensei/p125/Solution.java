@@ -1,4 +1,4 @@
-package leetCode.Minwoo;
+package leetCode.Sensei.p125;
 
 class Solution {
     public boolean isPalindrome(String s) {

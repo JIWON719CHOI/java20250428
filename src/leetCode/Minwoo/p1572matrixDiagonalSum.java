@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class matrixDiagonalSum1572 {
+public class p1572matrixDiagonalSum {
     public static int main(String[] args) {
         int[][] mat = {
                 {1, 2, 3},

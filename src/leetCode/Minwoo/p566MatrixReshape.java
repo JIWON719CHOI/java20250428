@@ -2,7 +2,7 @@ package leetCode.Minwoo;
 
 import java.util.Arrays;
 
-public class MatrixReshape566 {
+public class p566MatrixReshape {
     public static void main(String[] args) {
         int[][] mat = {{1, 2, 3, 4}};
         System.out.println(Arrays.deepToString(matrixReshape(mat, 2, 2)));

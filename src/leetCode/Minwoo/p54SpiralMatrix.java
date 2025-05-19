@@ -3,7 +3,7 @@ package leetCode.Minwoo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpiralMatrix54 {
+public class p54SpiralMatrix {
 
     public static void main(String[] args) {
         int[][] arr = {

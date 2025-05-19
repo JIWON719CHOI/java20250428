@@ -1,6 +1,6 @@
 package leetCode.Minwoo;
 
-public class FindNumbers1295 {
+public class p1295FindNumbers {
     public static void main(String[] args) {
         int[] arr = {12, 345, 2, 6, 7896};
 
