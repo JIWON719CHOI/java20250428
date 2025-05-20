@@ -1,6 +1,6 @@
 package leetCode.jiwon;
 
-public class FinalValueAfterOperations2011 {
+public class p2011FinalValueAfterOperations {
     public static void main(String[] args) {
         String[] operations = {"--X", "X++", "X++"};
 
