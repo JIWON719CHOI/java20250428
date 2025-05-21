@@ -9,16 +9,16 @@ import java.util.stream.Stream;
 
 public class App02 {
     public static void main(String[] args) {
-        // Collection의 요소들로 Stream 만들기
-
+        // Collection의 요소들르 Stream 만들기
         List<Integer> list1 = List.of(3, 1, 0, -1, 10, 5);
+
         Stream<Integer> stream1 = list1.stream();
 
-        Set<Integer> set1 = Set.of(45, 48, 7, 2, 1, 5);
+        Set<Integer> set1 = Set.of(7, 6, 5, 4, 3, 2);
 
         Stream<Integer> stream2 = set1.stream();
 
-        Integer[] arr1 = {5, 7, 9, 1, 2, 4, 6};
+        Integer[] arr1 = {5, 6, 1, 2, 3, 3};
 
         Stream<Integer> stream3 = Arrays.stream(arr1);
 
@@ -26,5 +26,6 @@ public class App02 {
         IntStream stream4 = random.ints();
 
         IntStream stream5 = IntStream.range(0, 100);
+
     }
 }
